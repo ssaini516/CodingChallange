@@ -8,25 +8,34 @@
 
 <body>
     <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="features.html">Features</a>
         <a href="support.html">Support</a>
     </div>
     <div id="main">
-        <div id="naviBar">
-            <ul>
-                <li>M.O</li>
-                <li style="float:right"><span onclick="openNav()"><i class='fas fa-stream'></i></span></li>
-            </ul>
-        </div>
+        <ul id="naviBar">
+            <li id="naviLogo"><a href="index.html">M.O</a></li>
+            <li id="naviIcon"><span onclick="openNav()"><i class='fas fa-stream'></i></span></li>
+        </ul>
         <div id="content">
             <div id="pageParagraph">
-                <h1>Coding Challenge</h1>
-                <p>Hope you like this</p>
+                <h1>Support</h1>
+
+                <form action="#" onsubmit="messageAlert()">
+                    <fieldset>
+                        <legend>Personal information:</legend>
+                        First name:<br>
+                        <input type="text" name="firstname" placeholder="Your First Name">
+                        <br>
+                        Last name:<br>
+                        <input type="text" name="lastname" placeholder="Your Last Name">
+                        <br><br>
+                        <input type="submit" value="Submit">
+                    </fieldset>
+                </form>
             </div>
-            <img id="image" src="../content/images/1.webp" alt="sky view">
         </div>
     </div>
     <script src="../js/index.js"></script>

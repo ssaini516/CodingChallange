@@ -4,27 +4,35 @@
 <head>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/features.css">
 </head>
 
 <body>
     <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="features.html">Features</a>
         <a href="support.html">Support</a>
     </div>
     <div id="main">
-        <div id="naviBar">
-            <ul>
-                <li>M.O</li>
-                <li style="float:right"><span onclick="openNav()"><i class='fas fa-stream'></i></span></li>
-            </ul>
-        </div>
+        <ul id="naviBar">
+            <li id="naviLogo"><a href="index.html">M.O</a></li>
+            <li id="naviIcon"><span onclick="openNav()"><i class='fas fa-stream'></i></span></li>
+        </ul>
         <div id="content">
             <div id="pageParagraph">
-                <h1>Coding Challenge</h1>
-                <p>Hope you like this</p>
+                <h1>Features</h1>
+                <ul>
+                    <li>🕹 Simple and clear user interface</li>
+                    <li>🦄 Support BitTorrent & Magnet</li>
+                    <li>💾 Support downloading Baidu Net Disk</li>
+                    <li>🎛 Up to 10 tasks concurrently download</li>
+                    <li>🚀 Single task maximum support 64 thread download</li>
+                    <li>🕶 Mock User-Agent</li>
+                    <li>🔔 Download completed Notification</li>
+                    <li>🤖 Resident system tray for quick operation</li>
+                </ul>
             </div>
             <img id="image" src="../content/images/1.webp" alt="sky view">
         </div>

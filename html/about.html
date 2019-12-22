@@ -4,25 +4,36 @@
 <head>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/about.css">
 </head>
 
 <body>
     <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="features.html">Features</a>
         <a href="support.html">Support</a>
     </div>
     <div id="main">
-        <div id="naviBar">
-            <ul>
-                <li>M.O</li>
-                <li style="float:right"><span onclick="openNav()"><i class='fas fa-stream'></i></span></li>
-            </ul>
-        </div>
+        <ul id="naviBar">
+            <li id="naviLogo"><a href="index.html">M.O</a></li>
+            <li id="naviIcon"><span onclick="openNav()"><i class='fas fa-stream'></i></span></li>
+        </ul>
         <div id="content">
-            <h1>About</h1>
+            <div id="pageParagraph">
+                <h1>About</h1>
+                <img id="christmasImages" src="../content/images/2.jpg" alt="christmas tree">
+                <br>
+                <p>Motrix is a full-featured download manager that support downloading HTTP, FTP, BitTorrent, Magnet,
+                    Baidu Net Disk etc.
+                    It has a clean and simple interface and is easy to use. I hope you will like it 👻.
+                    I open sourced the Motrix based on MIT License at Dec 19, 2018, fork and PR are welcome, see the
+                    GitHub Repo
+                    The birth of Motrix is inseparable from the support of the following third-party open source
+                    software. View open source licenses
+                </p>
+            </div>
         </div>
     </div>
     <script src="../js/index.js"></script>

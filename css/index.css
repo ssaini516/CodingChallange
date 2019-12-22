@@ -2,23 +2,31 @@
     font-size: 30px;
      background-color: white;
 }
-ul{
+#naviBar{
     list-style-type: none;
     overflow: hidden;
-    background-color:rgb(255, 255, 255,0.75);
+    background-color:rgba(255, 255, 255, 0.753);
     position: fixed;
     top: 0;
     width: 95%;
     
 }
-li{
+#naviLogo{
     float: left;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
+a:link {
+  text-decoration: none;
+}
+#naviIcon{
+  float:right;
+  font-size: 30px;
+}
 #pageParagraph{
     float: left;
-    margin-left: 25%;
+    margin-left: 20%;
+    width: 50%;
 }
 #image{
     float: right;
@@ -48,21 +56,11 @@ li{
 
 }
 
-table{
-   margin: auto;
-}
-th {
-    padding: 15px;
-    font-size: 50px;
-    
-  }
-#tabbleId{
-    visibility: hidden;
+#christmasImages{
+  border-radius: 50%;
 }
 
-
-
-/* =========== */
+/*-------- side navigation ---------*/
 
 .sidenav {
     height: 100%;
@@ -71,7 +69,7 @@ th {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #818181;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -81,7 +79,7 @@ th {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: white;
     display: block;
     transition: 0.3s;
   }
